@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 434.18666666666667 508.20000000000005" width="434.18666666666667" height="508.20000000000005" style="--bg:#1e293b;--fg:#cbd5e1;--accent:#3b82f6;--muted:#64748b;background:#1e293b">
+<style>
+  text { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 13px; }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<rect width="100%" height="100%" fill="#1e293b" rx="8" ry="8"/>
+<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="235.18349999999998,76.9 235.18350000000004,124.9" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Ergebnis" points="212.75433333333336,161.8 212.75433333333336,197.8 169.19799999999998,197.8 169.19799999999998,278.1" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Exit-Bedingung nicht erfuellt" points="190.02166666666665,315 190.02166666666665,351 238.889,351 238.889,419.30000000000007 275.73850000000004,419.30000000000007 275.73850000000004,431.30000000000007" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="D" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Neuer Versuch" points="313.18683333333337,431.30000000000007 313.18683333333337,419.30000000000007 334.3306666666667,419.30000000000007 334.3306666666667,318.70000000000005 257.61266666666666,318.70000000000005 257.61266666666666,161.8" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="E" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Exit-Bedingung erfuellt" points="148.3743333333333,315 148.3743333333333,351 99.507,351 99.507,431.30000000000007" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="B" data-to="C" data-label="Ergebnis">
+  <rect x="138.19799999999998" y="204.8" width="61.606" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="169.00099999999998" y="219.95000000000002" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Ergebnis</text>
+</g>
+<g class="edge-label" data-from="C" data-to="D" data-label="Exit-Bedingung nicht erfuellt">
+  <rect x="164.889" y="358" width="147.736" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="238.757" y="373.15" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Exit-Bedingung nicht erfuellt</text>
+</g>
+<g class="edge-label" data-from="D" data-to="B" data-label="Neuer Versuch">
+  <rect x="288.8306666666667" y="325.70000000000005" width="90.71200000000002" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="334.18666666666667" y="340.85" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Neuer Versuch</text>
+</g>
+<g class="edge-label" data-from="C" data-to="E" data-label="Exit-Bedingung erfuellt">
+  <rect x="37.50700000000001" y="358" width="123.38199999999999" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="99.19800000000001" y="373.15" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Exit-Bedingung erfuellt</text>
+</g>
+<g class="node" data-id="A" data-label="Aufgabe" data-shape="rectangle">
+  <rect x="189.75549999999998" y="40" width="90.856" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="235.18349999999998" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Aufgabe</text>
+</g>
+<g class="node" data-id="B" data-label="Executor-Agent" data-shape="rectangle">
+  <rect x="167.89600000000002" y="124.9" width="134.575" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="235.1835" y="143.35000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Executor-Agent</text>
+</g>
+<g class="node" data-id="C" data-label="Monitor-Agent" data-shape="rectangle">
+  <rect x="106.727" y="278.1" width="124.94200000000001" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="169.198" y="296.55" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Monitor-Agent</text>
+</g>
+<g class="node" data-id="D" data-label="Retry-Agent" data-shape="rectangle">
+  <rect x="238.29016666666666" y="431.30000000000007" width="112.34500000000001" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="294.4626666666667" y="449.75000000000006" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Retry-Agent</text>
+</g>
+<g class="node" data-id="E" data-label="Endergebnis" data-shape="rectangle">
+  <rect x="40" y="431.30000000000007" width="119.01400000000001" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="99.507" y="449.75000000000006" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Endergebnis</text>
+</g>
+</svg>

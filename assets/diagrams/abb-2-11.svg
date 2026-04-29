@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 333.41099999999994 661.4000000000001" width="333.41099999999994" height="661.4000000000001" style="--bg:#1e293b;--fg:#cbd5e1;--accent:#3b82f6;--muted:#64748b;background:#1e293b">
+<style>
+  text { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 13px; }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<rect width="100%" height="100%" fill="#1e293b" rx="8" ry="8"/>
+<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="173.89241666666663,76.9 173.89241666666663,124.9" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Erlaubt" points="140.34824999999998,161.8 140.34824999999998,197.8 128.20916666666665,197.8 128.20916666666665,278.1" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Blockiert" points="207.43658333333332,161.8 207.43658333333332,351 233.70199999999997,351 233.70199999999997,572.5000000000001 232.27066666666664,572.5000000000001 232.27066666666664,584.5000000000001" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="E" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Output" points="128.20916666666665,315 128.20916666666665,431.30000000000007" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E" data-to="F" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Gueltig" points="101.08699999999999,468.20000000000005 101.08699999999999,504.20000000000005 88.392,504.20000000000005 88.392,584.5000000000001" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Ungueltig" points="155.3313333333333,468.20000000000005 155.3313333333333,504.20000000000005 183.27683333333331,504.20000000000005 183.27683333333331,572.5000000000001 198.5273333333333,572.5000000000001 198.5273333333333,584.5000000000001" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="B" data-to="C" data-label="Erlaubt">
+  <rect x="101.70916666666666" y="204.8" width="52.102000000000004" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="127.76016666666666" y="219.95000000000002" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Erlaubt</text>
+</g>
+<g class="edge-label" data-from="B" data-to="D" data-label="Blockiert">
+  <rect x="203.20199999999997" y="358" width="60.418000000000006" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="233.41099999999997" y="373.15" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Blockiert</text>
+</g>
+<g class="edge-label" data-from="C" data-to="E" data-label="Output">
+  <rect x="104.20916666666666" y="358" width="47.35" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="127.88416666666666" y="373.15" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Output</text>
+</g>
+<g class="edge-label" data-from="E" data-to="F" data-label="Gueltig">
+  <rect x="63.391999999999996" y="511.20000000000005" width="49.726000000000006" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="88.255" y="526.35" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Gueltig</text>
+</g>
+<g class="edge-label" data-from="E" data-to="D" data-label="Ungueltig">
+  <rect x="152.27683333333331" y="511.20000000000005" width="61.60600000000001" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="183.0798333333333" y="526.35" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Ungueltig</text>
+</g>
+<g class="node" data-id="A" data-label="Input" data-shape="rectangle">
+  <rect x="138.83841666666663" y="40" width="70.108" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="173.89241666666663" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Input</text>
+</g>
+<g class="node" data-id="B" data-label="Business Rules Pre-Check" data-shape="rectangle">
+  <rect x="73.25991666666664" y="124.9" width="201.265" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="173.89241666666663" y="143.35000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Business Rules Pre-Check</text>
+</g>
+<g class="node" data-id="C" data-label="Agent" data-shape="rectangle">
+  <rect x="90.19116666666666" y="278.1" width="76.036" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="128.20916666666665" y="296.55" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Agent</text>
+</g>
+<g class="node" data-id="D" data-label="Abgelehnt" data-shape="rectangle">
+  <rect x="164.784" y="584.5000000000001" width="101.22999999999999" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="215.399" y="602.9500000000002" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Abgelehnt</text>
+</g>
+<g class="node" data-id="E" data-label="Validierungs-Regeln" data-shape="rectangle">
+  <rect x="46.84266666666667" y="431.30000000000007" width="162.73299999999998" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="128.20916666666665" y="449.75000000000006" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Validierungs-Regeln</text>
+</g>
+<g class="node" data-id="F" data-label="Ergebnis" data-shape="rectangle">
+  <rect x="40" y="584.5000000000001" width="96.78399999999999" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="88.392" y="602.9500000000002" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Ergebnis</text>
+</g>
+</svg>

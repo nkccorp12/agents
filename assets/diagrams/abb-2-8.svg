@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 528.7525 569.1" width="528.7525" height="569.1" style="--bg:#1e293b;--fg:#cbd5e1;--accent:#3b82f6;--muted:#64748b;background:#1e293b">
+<style>
+  text { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 13px; }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<rect width="100%" height="100%" fill="#1e293b" rx="8" ry="8"/>
+<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="256.30199999999996,76.9 256.302,124.9" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Sub-Task 1" points="237.82483333333334,161.8 237.82483333333334,173.8 141.151,173.8 141.15099999999998,254.10000000000002" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Sub-Task 2" points="274.7791666666667,161.8 274.7791666666667,173.8 371.453,173.8 371.45300000000003,254.10000000000002" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="E" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Detail 1a" points="123.29133333333331,291 123.29133333333331,351 83.5755,351 83.5755,419.30000000000007" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="F" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Detail 1b" points="159.01066666666662,291 159.01066666666662,327 198.7265,327 198.7265,419.30000000000007" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="D" data-to="G" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Detail 2a" points="353.59333333333336,291 353.59333333333336,327 313.8775,327 313.87749999999994,419.30000000000007" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="D" data-to="H" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Detail 2b" points="389.3126666666667,291 389.3126666666667,351 429.0285,351 429.02849999999995,419.30000000000007" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E" data-to="I" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="83.5755,456.20000000000005 83.5755,474.20000000000005 256.30199999999996,474.20000000000005 256.30199999999996,492.20000000000005" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="F" data-to="I" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="198.7265,456.20000000000005 198.7265,474.20000000000005 256.30199999999996,474.20000000000005 256.30199999999996,492.20000000000005" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G" data-to="I" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="313.87749999999994,456.20000000000005 313.87749999999994,474.20000000000005 256.30199999999996,474.20000000000005 256.30199999999996,492.20000000000005" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="H" data-to="I" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="429.02849999999995,456.20000000000005 429.02849999999995,474.20000000000005 256.30199999999996,474.20000000000005 256.30199999999996,492.20000000000005" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="B" data-to="C" data-label="Sub-Task 1">
+  <rect x="106.651" y="180.8" width="68.73400000000001" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="141.018" y="195.95000000000002" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Sub-Task 1</text>
+</g>
+<g class="edge-label" data-from="B" data-to="D" data-label="Sub-Task 2">
+  <rect x="334.953" y="180.8" width="72.298" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="371.102" y="195.95000000000002" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Sub-Task 2</text>
+</g>
+<g class="edge-label" data-from="C" data-to="E" data-label="Detail 1a">
+  <rect x="56.57549999999999" y="358" width="53.88400000000001" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="83.5175" y="373.15" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Detail 1a</text>
+</g>
+<g class="edge-label" data-from="C" data-to="F" data-label="Detail 1b">
+  <rect x="171.7265" y="334" width="53.88400000000001" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="198.6685" y="349.15" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Detail 1b</text>
+</g>
+<g class="edge-label" data-from="D" data-to="G" data-label="Detail 2a">
+  <rect x="284.8775" y="334" width="57.448" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="313.6015" y="349.15" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Detail 2a</text>
+</g>
+<g class="edge-label" data-from="D" data-to="H" data-label="Detail 2b">
+  <rect x="400.0285" y="358" width="57.448" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="428.7525" y="373.15" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Detail 2b</text>
+</g>
+<g class="node" data-id="A" data-label="Komplexes Problem" data-shape="rectangle">
+  <rect x="177.15849999999998" y="40" width="158.287" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="256.30199999999996" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Komplexes Problem</text>
+</g>
+<g class="node" data-id="B" data-label="Boss-Agent" data-shape="rectangle">
+  <rect x="200.8705" y="124.9" width="110.863" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="256.302" y="143.35000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Boss-Agent</text>
+</g>
+<g class="node" data-id="C" data-label="Manager A" data-shape="rectangle">
+  <rect x="87.57199999999999" y="254.10000000000002" width="107.15799999999999" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="141.15099999999998" y="272.55" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Manager A</text>
+</g>
+<g class="node" data-id="D" data-label="Manager B" data-shape="rectangle">
+  <rect x="317.874" y="254.10000000000002" width="107.15799999999999" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="371.45300000000003" y="272.55" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Manager B</text>
+</g>
+<g class="node" data-id="E" data-label="Worker" data-shape="rectangle">
+  <rect x="40" y="419.30000000000007" width="87.151" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="83.5755" y="437.75000000000006" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Worker</text>
+</g>
+<g class="node" data-id="F" data-label="Worker" data-shape="rectangle">
+  <rect x="155.15099999999998" y="419.30000000000007" width="87.151" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="198.7265" y="437.75000000000006" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Worker</text>
+</g>
+<g class="node" data-id="G" data-label="Worker" data-shape="rectangle">
+  <rect x="270.30199999999996" y="419.30000000000007" width="87.151" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="313.87749999999994" y="437.75000000000006" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Worker</text>
+</g>
+<g class="node" data-id="H" data-label="Worker" data-shape="rectangle">
+  <rect x="385.453" y="419.30000000000007" width="87.151" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="429.02849999999995" y="437.75000000000006" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Worker</text>
+</g>
+<g class="node" data-id="I" data-label="Gesamtloesung" data-shape="rectangle">
+  <rect x="190.12599999999998" y="492.20000000000005" width="132.352" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="256.30199999999996" y="510.65000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Gesamtloesung</text>
+</g>
+</svg>

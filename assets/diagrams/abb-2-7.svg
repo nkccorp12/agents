@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487.56449999999995 524.8" width="487.56449999999995" height="524.8" style="--bg:#1e293b;--fg:#cbd5e1;--accent:#3b82f6;--muted:#64748b;background:#1e293b">
+<style>
+  text { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 13px; }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<rect width="100%" height="100%" fill="#1e293b" rx="8" ry="8"/>
+<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="402.87749999999994,230.10000000000002 402.87749999999994,266.1 324.5925,266.1 324.5925,278.1" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Routing" points="181.5238333333333,278.1 181.5238333333333,266.1 95.16749999999996,266.1 95.16749999999996,221.8 97.20833333333331,221.8 97.20833333333331,161.8" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Routing" points="253.05816666666664,278.1 253.05816666666664,266.1 285.90049999999997,266.1 285.90049999999997,197.8 290.90533333333326,197.8 290.90533333333326,76.9" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="E" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Routing" points="199.40741666666662,315 199.40741666666662,367.59999999999997 150.60729166666664,367.59999999999997 150.60729166666664,435.9 160.12295833333332,435.9 160.12295833333332,447.9" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Ergebnis" points="154.41666666666663,161.8 154.41666666666663,197.8 156.45749999999998,197.8 156.45749999999998,254.10000000000002 217.29099999999997,254.10000000000002 217.29099999999997,278.1" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="D" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Ergebnis" points="342.18566666666663,76.9 342.18566666666663,112.9 347.19049999999993,112.9 347.19049999999993,254.10000000000002 288.82533333333333,254.10000000000002 288.82533333333333,278.1" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Ergebnis" points="211.89729166666666,447.9 211.89729166666663,367.59999999999997 253.05816666666664,367.59999999999997 253.05816666666664,315" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="F" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="306.7089166666666,315 306.7089166666666,351 347.86979166666663,351 347.86979166666663,363" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="B" data-to="C" data-label="Routing">
+  <rect x="68.16749999999996" y="228.8" width="53.29" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="94.81249999999996" y="243.95000000000002" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Routing</text>
+</g>
+<g class="edge-label" data-from="B" data-to="D" data-label="Routing">
+  <rect x="258.90049999999997" y="204.8" width="53.29" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="285.54549999999995" y="219.95000000000002" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Routing</text>
+</g>
+<g class="edge-label" data-from="B" data-to="E" data-label="Routing">
+  <rect x="123.60729166666665" y="374.59999999999997" width="53.29" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="150.25229166666665" y="389.74999999999994" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Routing</text>
+</g>
+<g class="edge-label" data-from="C" data-to="B" data-label="Ergebnis">
+  <rect x="125.45749999999998" y="204.8" width="61.606" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="156.26049999999998" y="219.95000000000002" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Ergebnis</text>
+</g>
+<g class="edge-label" data-from="D" data-to="B" data-label="Ergebnis">
+  <rect x="316.19049999999993" y="119.9" width="61.606" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="346.9934999999999" y="135.05" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Ergebnis</text>
+</g>
+<g class="edge-label" data-from="E" data-to="B" data-label="Ergebnis">
+  <rect x="180.89729166666663" y="374.59999999999997" width="61.606" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="211.70029166666663" y="389.74999999999994" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Ergebnis</text>
+</g>
+<g class="node" data-id="A" data-label="Anfrage" data-shape="rectangle">
+  <rect x="358.19049999999993" y="193.2" width="89.374" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="402.87749999999994" y="211.64999999999998" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Anfrage</text>
+</g>
+<g class="node" data-id="B" data-label="Coordinator-Agent (Manager)" data-shape="rectangle">
+  <rect x="145.75666666666663" y="278.1" width="214.60299999999998" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="253.05816666666664" y="296.55" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Coordinator-Agent (Manager)</text>
+</g>
+<g class="node" data-id="C" data-label="Spezialist: Recherche" data-shape="rectangle">
+  <rect x="40" y="124.89999999999999" width="171.62499999999997" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="125.81249999999999" y="143.35" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Spezialist: Recherche</text>
+</g>
+<g class="node" data-id="D" data-label="Spezialist: Analyse" data-shape="rectangle">
+  <rect x="239.62499999999994" y="40" width="153.841" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="316.54549999999995" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Spezialist: Analyse</text>
+</g>
+<g class="node" data-id="E" data-label="Spezialist: Kreation" data-shape="rectangle">
+  <rect x="108.34862499999997" y="447.9" width="155.323" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="186.01012499999996" y="466.34999999999997" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Spezialist: Kreation</text>
+</g>
+<g class="node" data-id="F" data-label="Koordinierte Antwort" data-shape="rectangle">
+  <rect x="266.50329166666666" y="363" width="162.733" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="347.86979166666663" y="381.45" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Koordinierte Antwort</text>
+</g>
+</svg>

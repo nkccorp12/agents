@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 505.139 355" width="505.139" height="355" style="--bg:#1e293b;--fg:#cbd5e1;--accent:#3b82f6;--muted:#64748b;background:#1e293b">
+<style>
+  text { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 13px; }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<rect width="100%" height="100%" fill="#1e293b" rx="8" ry="8"/>
+<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="419.711,169.2 419.711,181.2 333.494,181.2 333.494,193.2" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Optionen praesentieren" points="295.47600000000006,193.2 295.47600000000006,181.2 209.757,181.2 209.757,112.9 216.782,112.9 216.782,76.9" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Genehmigt" points="176.6545,76.9 176.6545,112.9 108.399,112.9 108.399,193.2" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Anpassung" points="256.9095,76.9 256.9095,112.9 314.485,112.9 314.485,193.2" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="D" data-to="E" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="108.399,230.10000000000002 108.399,278.1" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="B" data-to="C" data-label="Optionen praesentieren">
+  <rect x="145.257" y="119.9" width="128.72800000000004" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="209.62100000000004" y="135.05" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Optionen praesentieren</text>
+</g>
+<g class="edge-label" data-from="C" data-to="D" data-label="Genehmigt">
+  <rect x="74.899" y="119.9" width="66.358" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="108.078" y="135.05" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Genehmigt</text>
+</g>
+<g class="edge-label" data-from="C" data-to="B" data-label="Anpassung">
+  <rect x="277.985" y="119.9" width="72.298" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="314.134" y="135.05" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Anpassung</text>
+</g>
+<g class="node" data-id="A" data-label="Aufgabe" data-shape="rectangle">
+  <rect x="374.283" y="132.3" width="90.856" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="419.711" y="150.75" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Aufgabe</text>
+</g>
+<g class="node" data-id="B" data-label="Agent" data-shape="rectangle">
+  <rect x="276.46700000000004" y="193.2" width="76.036" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="314.485" y="211.64999999999998" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Agent</text>
+</g>
+<g class="node" data-id="C" data-label="Mensch entscheidet" data-shape="rectangle">
+  <rect x="136.52700000000002" y="40" width="160.51" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="216.782" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Mensch entscheidet</text>
+</g>
+<g class="node" data-id="D" data-label="Agent fuehrt aus" data-shape="rectangle">
+  <rect x="40" y="193.2" width="136.798" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="108.399" y="211.64999999999998" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Agent fuehrt aus</text>
+</g>
+<g class="node" data-id="E" data-label="Ergebnis" data-shape="rectangle">
+  <rect x="60.007000000000005" y="278.1" width="96.78399999999999" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="108.399" y="296.55" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Ergebnis</text>
+</g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 351.35 524.8" width="351.35" height="524.8" style="--bg:#1e293b;--fg:#cbd5e1;--accent:#3b82f6;--muted:#64748b;background:#1e293b">
+<style>
+  text { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 13px; }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<rect width="100%" height="100%" fill="#1e293b" rx="8" ry="8"/>
+<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="180.15425,76.9 180.15425,124.9" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="153.27908333333335,161.8 153.27908333333335,197.8 108.7695,197.8 108.7695,209.8" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="108.7695,246.70000000000002 108.7695,282.70000000000005 147.59808333333334,282.70000000000005 147.59808333333334,294.70000000000005" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="D" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Ziel nicht erreicht" points="212.71041666666662,294.70000000000005 212.71041666666662,282.70000000000005 251.539,282.70000000000005 251.539,214.4 207.02941666666663,214.4 207.02941666666663,161.8" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="D" data-to="E" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Ziel erreicht" points="180.15425,331.6 180.15425,447.90000000000003" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="D" data-to="B" data-label="Ziel nicht erreicht">
+  <rect x="201.539" y="221.4" width="99.62200000000003" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="251.35" y="236.55" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Ziel nicht erreicht</text>
+</g>
+<g class="edge-label" data-from="D" data-to="E" data-label="Ziel erreicht">
+  <rect x="142.15425" y="374.6" width="75.26800000000001" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="179.78825" y="389.75" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Ziel erreicht</text>
+</g>
+<g class="node" data-id="A" data-label="Aufgabe" data-shape="rectangle">
+  <rect x="134.72625" y="40" width="90.856" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="180.15425" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Aufgabe</text>
+</g>
+<g class="node" data-id="B" data-label="Denken (Reasoning)" data-shape="rectangle">
+  <rect x="99.52874999999999" y="124.9" width="161.251" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="180.15425" y="143.35000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Denken (Reasoning)</text>
+</g>
+<g class="node" data-id="C" data-label="Handeln (Action)" data-shape="rectangle">
+  <rect x="40" y="209.8" width="137.539" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="108.7695" y="228.25" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Handeln (Action)</text>
+</g>
+<g class="node" data-id="D" data-label="Beobachten (Observation)" data-shape="rectangle">
+  <rect x="82.48575000000002" y="294.70000000000005" width="195.33699999999996" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="180.15425" y="313.15000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Beobachten (Observation)</text>
+</g>
+<g class="node" data-id="E" data-label="Endergebnis" data-shape="rectangle">
+  <rect x="120.64725" y="447.90000000000003" width="119.01400000000001" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="180.15425" y="466.35" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Endergebnis</text>
+</g>
+</svg>

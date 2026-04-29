@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 459.2375 286.70000000000005" width="459.2375" height="286.70000000000005" style="--bg:#1e293b;--fg:#cbd5e1;--accent:#3b82f6;--muted:#64748b;background:#1e293b">
+<style>
+  text { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 13px; }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<rect width="100%" height="100%" fill="#1e293b" rx="8" ry="8"/>
+<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="229.07599999999996,161.8 229.07599999999996,197.8 155.80249999999998,197.8 155.80249999999998,209.8" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Entwurf" points="97.77749999999997,209.8 97.77749999999997,197.8 62.99999999999997,197.8 62.99999999999997,129.5 92.89637499999998,129.5 92.89637499999998,76.9" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Feedback" points="121.723625,76.9 121.723625,129.5 126.78999999999996,129.5 126.78999999999999,209.8" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Qualitaet erreicht" points="150.550875,76.9 150.550875,112.9 347.50399999999996,112.9 347.50399999999996,209.8" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="B" data-to="C" data-label="Entwurf">
+  <rect x="35.99999999999997" y="136.5" width="53.29" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="62.64499999999997" y="151.65" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Entwurf</text>
+</g>
+<g class="edge-label" data-from="C" data-to="B" data-label="Feedback">
+  <rect x="93.28999999999996" y="136.5" width="66.358" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="126.46899999999997" y="151.65" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Feedback</text>
+</g>
+<g class="edge-label" data-from="C" data-to="D" data-label="Qualitaet erreicht">
+  <rect x="298.50399999999996" y="136.5" width="97.84000000000003" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="347.424" y="151.65" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Qualitaet erreicht</text>
+</g>
+<g class="node" data-id="A" data-label="Aufgabe" data-shape="rectangle">
+  <rect x="183.64799999999997" y="124.9" width="90.856" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="229.07599999999996" y="143.35000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Aufgabe</text>
+</g>
+<g class="node" data-id="B" data-label="Writer-Agent" data-shape="rectangle">
+  <rect x="68.76499999999999" y="209.8" width="116.05" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="126.78999999999999" y="228.25" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Writer-Agent</text>
+</g>
+<g class="node" data-id="C" data-label="Editor-Agent" data-shape="rectangle">
+  <rect x="64.06912499999999" y="40" width="115.30900000000001" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="121.723625" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Editor-Agent</text>
+</g>
+<g class="node" data-id="D" data-label="Finales Ergebnis" data-shape="rectangle">
+  <rect x="275.77049999999997" y="209.8" width="143.467" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="347.50399999999996" y="228.25" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Finales Ergebnis</text>
+</g>
+</svg>

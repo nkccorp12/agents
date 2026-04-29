@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448.501 423.3" width="448.501" height="423.3" style="--bg:#1e293b;--fg:#cbd5e1;--accent:#3b82f6;--muted:#64748b;background:#1e293b">
+<style>
+  text { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 13px; }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="#3b82f6" stroke="#3b82f6" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<rect width="100%" height="100%" fill="#1e293b" rx="8" ry="8"/>
+<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Anfrage" points="187.96833333333333,76.9 187.96833333333333,112.9 174.766,112.9 174.766,181.2 185.99233333333333,181.2 185.99233333333333,193.2" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="A" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Antwort" points="222.20566666666667,193.2 222.20566666666667,181.2 233.432,181.2 233.432,112.9 220.22966666666667,112.9 220.22966666666667,76.9" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Aufruf" points="165.299,230.10000000000002 165.299,242.10000000000002 59.5,242.10000000000002 59.5,334.40000000000003 75.04083333333332,334.40000000000003 75.04083333333332,340.40000000000003" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Ergebnis" points="101.62116666666665,340.40000000000003 101.62116666666665,334.40000000000003 117.162,334.40000000000003 117.162,254.10000000000002 180.81900000000002,254.10000000000002 180.81900000000002,230.10000000000002" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Aufruf" points="196.339,230.10000000000002 196.339,266.1 175.268,266.1 175.268,334.40000000000003 190.80883333333333,334.40000000000003 190.80883333333333,340.40000000000003" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="D" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Ergebnis" points="217.38916666666665,340.40000000000003 217.38916666666665,334.40000000000003 232.93,334.40000000000003 232.93,266.1 211.859,266.1 211.859,230.10000000000002" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="E" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Aufruf" points="227.37900000000002,230.10000000000002 227.37900000000002,254.10000000000002 291.036,254.10000000000002 291.036,322.40000000000003 306.57683333333335,322.40000000000003 306.57683333333335,340.40000000000003" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Ergebnis" points="333.1571666666667,340.40000000000003 333.1571666666667,322.40000000000003 348.698,322.40000000000003 348.698,242.10000000000002 242.89900000000003,242.10000000000002 242.89900000000003,230.10000000000002" fill="none" stroke="#4a6380" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="A" data-to="B" data-label="Anfrage">
+  <rect x="146.766" y="119.9" width="55.666000000000004" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="174.599" y="135.05" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Anfrage</text>
+</g>
+<g class="edge-label" data-from="B" data-to="A" data-label="Antwort">
+  <rect x="206.432" y="119.9" width="53.29" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="233.077" y="135.05" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Antwort</text>
+</g>
+<g class="edge-label" data-from="B" data-to="C" data-label="Aufruf">
+  <rect x="36" y="273.1" width="46.162000000000006" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="59.081" y="288.25" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Aufruf</text>
+</g>
+<g class="edge-label" data-from="C" data-to="B" data-label="Ergebnis">
+  <rect x="86.162" y="273.1" width="61.606" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="116.965" y="288.25" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Ergebnis</text>
+</g>
+<g class="edge-label" data-from="B" data-to="D" data-label="Aufruf">
+  <rect x="151.76799999999997" y="273.1" width="46.162000000000006" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="174.849" y="288.25" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Aufruf</text>
+</g>
+<g class="edge-label" data-from="D" data-to="B" data-label="Ergebnis">
+  <rect x="201.93" y="273.1" width="61.606" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="232.733" y="288.25" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Ergebnis</text>
+</g>
+<g class="edge-label" data-from="B" data-to="E" data-label="Aufruf">
+  <rect x="267.536" y="261.1" width="46.162000000000006" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="290.617" y="276.25" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Aufruf</text>
+</g>
+<g class="edge-label" data-from="E" data-to="B" data-label="Ergebnis">
+  <rect x="317.698" y="261.1" width="61.606" height="30.3" rx="2" ry="2" fill="#1e293b" stroke="#2d3f54" stroke-width="1" />
+  <text x="348.501" y="276.25" text-anchor="middle" font-size="11" font-weight="400" fill="#8899aa" dy="3.8499999999999996">Ergebnis</text>
+</g>
+<g class="node" data-id="A" data-label="Benutzer" data-shape="rectangle">
+  <rect x="155.707" y="40" width="96.78399999999999" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="204.099" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Benutzer</text>
+</g>
+<g class="node" data-id="B" data-label="LLM-Agent" data-shape="rectangle">
+  <rect x="149.779" y="193.2" width="108.64000000000001" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="204.099" y="211.64999999999998" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">LLM-Agent</text>
+</g>
+<g class="node" data-id="C" data-label="Tool A" data-shape="rectangle">
+  <rect x="48.460499999999996" y="340.40000000000003" width="79.741" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="88.33099999999999" y="358.85" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Tool A</text>
+</g>
+<g class="node" data-id="D" data-label="Tool B" data-shape="rectangle">
+  <rect x="164.2285" y="340.40000000000003" width="79.741" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="204.099" y="358.85" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Tool B</text>
+</g>
+<g class="node" data-id="E" data-label="Tool C" data-shape="rectangle">
+  <rect x="279.9965" y="340.40000000000003" width="79.741" height="36.900000000000006" rx="0" ry="0" fill="#243347" stroke="#3b5068" stroke-width="0.75" />
+  <text x="319.867" y="358.85" text-anchor="middle" font-size="13" font-weight="500" fill="#cbd5e1" dy="4.55">Tool C</text>
+</g>
+</svg>
