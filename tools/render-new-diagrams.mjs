@@ -52,8 +52,7 @@ const diagrams = [
   D["Gesamtdatensatz<br/>in Code-Umgebung"] --> X["LLM schreibt Code:<br/>samplen, filtern, chunken"]
   P --> X
   X --> K{"Chunk klein genug?"}
-  K -- nein --> Z["Weiter zerlegen"]
-  Z --> K
+  K -- nein --> X
   K -- ja --> R["Rekursive LLM-Aufrufe<br/>je Chunk"]
   R --> G["Programmatische<br/>Aggregation"]
   G --> A["Finale Antwort"]`,
@@ -62,8 +61,7 @@ const diagrams = [
   D["Full dataset<br/>in code environment"] --> X["LLM writes code:<br/>sample, filter, chunk"]
   P --> X
   X --> K{"Chunk small enough?"}
-  K -- no --> Z["Decompose further"]
-  Z --> K
+  K -- no --> X
   K -- yes --> R["Recursive LLM calls<br/>per chunk"]
   R --> G["Programmatic<br/>aggregation"]
   G --> A["Final answer"]`
